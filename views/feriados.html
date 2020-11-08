@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        {% include "head.html"%}
+        <title>Eventos Feriado - Trilhando Teresópolis</title>
+
+        <style>
+            
+        </style>
+    </head>
+
+    <body>
+        <section>
+            <header class="container-fluid container-md">
+                <div class="jumbotron-fluid JumboHeadImgFeriado">
+                    {% include "nav.html"%}
+                </div>
+            </header>    
+          </section>
+
+        <section>
+            <div class="container container-fluid container-md">
+                <h3 class="text-center text-white font-weight-bolder bg-success">
+                    EVENTOS DE FERIADOS
+                </h3>
+            </div>
+        </section>
+
+        {%include "ListaEventos.html"%}        
+        
+        <section>
+            <p>
+                <div class="container-fluid container-md">
+                    <h3 class="font-weight-bold">Próximos Eventos nos Feriados de 2020</h3>
+        
+                    <p class="ttt">
+                        <span>
+                            Nos envie um <a href="#enviar">email</a> e agende sua aventura!
+                        </span>
+                    </p>
+        
+                    <p>
+                        <!--<h4 class= "font-weight-bold">
+                            <p>
+                                Informaremos em breve!
+                            </p>
+                        </h4>-->
+                        <ul>                
+                            <li class="font-weight-bold">SETEMBRO</li>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-map-marker text-success"></i>
+                                    <a class="font-weight-bold" href="https://pt.wikipedia.org/wiki/Pico_das_Agulhas_Negras" target="_blank">AGULHAS NEGRAS</a> X 
+                                    <a class="font-weight-bold" href="https://pt.wikipedia.org/wiki/Morro_do_Couto" target="_blank">MORRO DO COUTO
+                                    </a> <br>
+                                    <i class="fa fa-globe text-info"></i>
+                                        LOCAL: ITATIAIA<br>
+                                    <i class="fa fa-calendar text-dark"></i>
+                                        DATA: 28 e 29 /09/19<br>
+                                    <i class="fa fa-money text-success"></i>
+                                        VALOR: R$360,00<br>
+                                        🥵NÍVEL: PESADO<br>
+                                    <i class="fa fa-hourglass-half text-danger"></i>
+                                        VAGAS: 5 <br>
+                                        <!--<a class="btn btn-success" href="formulario">Comprar</a>-->
+                                        <!--{% include "submit.html"%}-->
+                                </li>
+                                    
+                                <p>
+                                    <li>
+                                        <i class="fa fa-map-marker text-success"></i>
+                                        <a class="font-weight-bold" href="https://www.trilhaseaventuras.com.br/rafting-rio-paraibuna-em-tres-rios-rj/" target="_blank">
+                                            RAFTING
+                                        </a><br>
+                                        <i class="fa fa-globe text-info"></i>
+                                            LOCAL: TRÊS RIOS<br>
+                                        <i class="fa fa-calendar text-dark"></i>
+                                            DATA: 22/09/19<br>
+                                        <i class="fa fa-money text-success"></i>
+                                            VALOR: R$270,00<br>
+                                        <i class="fa fa-hourglass-half text-danger"></i>
+                                            VAGAS: 5 <br>
+                                            <!--<a class="btn btn-success" href="formulario">Comprar</a>-->
+                                            <!--{% include "submit.html"%}-->
+                                    </li>
+                                </p>
+                            </ul>
+
+                            <br>
+
+                            <p>
+                                <li class="font-weight-bold">NOVEMBRO</li>
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-map-marker text-success"></i>
+                                        <a class="font-weight-bold" href="https://pt.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_das_Letras" target="_blank" rel="noopener noreferrer">
+                                            SAO TOMÉ DAS LETRAS
+                                        </a> <br>
+                                        <i class="fa fa-globe text-info"></i>
+                                            LOCAL: MINAS GERAIS <br>
+                                        <i class="fa fa-calendar text-dark"></i>
+                                            DATA:DIA: 14,15,16 e 17/11/19 <br>
+                                        <i class="fa fa-money text-success"></i>
+                                            VALOR: (será divulgado) <br>
+                                        <i class="fa fa-hourglass-half text-danger"></i>
+                                            VAGAS: 5 <br>
+                                            <!--<a class="btn btn-success" href="formulario">Comprar</a>-->
+                                            <!--{% include "submit.html"%}-->
+                                    </li>
+                                </ul>
+                            </p>
+                        </ul>
+                    </p>
+                </div><br><br>
+            </p>
+        </section>
+
+        <!--<section>
+            <p>
+                <div id="enviar" class="container-fluid container-md">
+                    <p>Clique aqui e agende sua trilha com a gente!</p>
+                    <a class="btn btn-success btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank">Clique Aqui</a>
+                </div>
+            </p>
+        </section>-->
+
+        <hr>
+
+        {% include "footer.html"%}
+    </body>
+</html>

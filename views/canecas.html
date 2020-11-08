@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        {% include "head.html"%}
+        <title>Canecas - Trilhando Teresópolis</title>
+
+        <style>
+            
+        </style>
+    </head>
+
+    <body>
+        <section>
+            <header class="container-fluid container-md">
+                <div class="jumbotron-fluid JumboHeadImgCanecas">
+                    {% include "nav.html"%}
+                </div>
+            </header>    
+          </section>
+
+        <div class="container container-fluid container-md">
+            <h3 class="text-white text-center font-weight-bold bg-success">
+                SESSÃO DE COMPRAS - CANECAS
+            </h3>
+        </div>
+
+        {% include "compras.html"%}
+        
+    
+        <section>
+            <div>
+                <div class="container container-fluid container-md">
+                    <div class="row">                                                
+                        <div class="col-sm-3">
+                            <div class="card w3-lime">
+                                <a href="canecas">
+                                    <img src="Imagens/Produtos/caneca.jpg" class="img-fluid card-img-top">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark text-center"><b>Caneca Trilhando Teresópolis</b></h5>
+                                    <p class="ttt card-text text-dark text-center">Caneca personalizada Trilhando Teresópolis para a melhor parte das trilhas, 
+                                            o <b>café</b> nas montanhas! <br> Por apenas R$ 14,90</p>
+                                    <p class="ttt card-footer text-center">
+                                        <a class="text-primary font-weight-bolder" href="#">Comprar</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </p>
+
+        <hr>
+
+        {% include "footer.html"%}
+    </body>
+</html>

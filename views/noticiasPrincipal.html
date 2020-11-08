@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        {% include "head.html"%}
+        <title>Trilhando Teresópolis</title>
+    </head>
+
+    <body>
+        <section>
+            <header class="container-fluid container-md">
+                <div class="jumbotron-fluid JumboHeadImgPrinc">
+                    {% include "nav.html"%}
+                </div>
+            </header>    
+          </section>
+
+        <div class="container-fluid container-md">
+            <h3 class="text-light text-center font-weight-bolder bg-success">
+                NOTÍCIAS
+            </h3>
+        </div>
+
+        <p>
+          <br>
+        </p>
+
+        <section>
+            <div class="container container-fluid container-md">
+                <div class="card-deck">
+                    <div class="card bg-danger">
+                            <div class="card-header">
+                                <h4 class="text-center font-weight-bold">
+                                    CBME
+                                </h4>
+                            </div>
+                            <a href="noticiasCBME">
+                                <img class="card-img-top" src="Imagens/Noticias/news.jpg" alt="">
+                            </a>
+                            <div class="card-body">
+                                <!--<h4 class="card-title">CBME</h4>-->
+                                <p class="card-text">Nota da Confederação Brasileira de Montanhismo e Escalada (CBME): Montanhistas unidos contra o COVID-19</p>
+                                <a class="btn btn-warning" href="noticiasCBME">Veja</a>
+                            </div>
+                        </div>
+
+                        <div class="card bg-info">
+                            <div class="card-header">
+                                <h4 class="text-center font-weight-bold">
+                                    Natureza
+                                </h4>
+                            </div>
+                            <a href="noticiasDois">
+                                <img class="card-img-top" src="Imagens/Noticias/natureza.jpg" alt="">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Pesquisa mostra como a COVID-19 irá mudar a maneira que aproveitamos a natureza
+                                </p>
+                                <a class="btn btn-success" href="noticiasDois">Veja</a>
+                            </div>
+                        </div>
+
+                        <div class="card w3-orange">
+                            <div class="card-header">
+                                <h4 class="text-center font-weight-bold">
+                                    Biodiversidade
+                                </h4>
+                            </div>
+                            <a href="noticiasTres">
+                                <img class="card-img-top" src="Imagens/Noticias/bio2.jpg" alt="">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Shell, Vale e Votorantim assinam compromisso de proteção à biodiversidade
+                                </p>
+                                <a class="btn btn-success" href="noticiasTres">Veja</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        {% include "footer.html"%}
+    </body>
+</html>

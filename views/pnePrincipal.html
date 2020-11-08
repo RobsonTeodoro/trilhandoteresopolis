@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        {% include "head.html"%}
+        <title>PNE-Trilhando Teresópolis</title>
+    </head>
+
+    <body>
+        <section>
+            <header class="container-fluid container-md">
+                <div class="jumbotron-fluid JumboHeadImgPNEPrinc">
+                    {% include "nav.html"%}
+                </div>
+            </header>    
+          </section>
+
+        <div class="container-fluid container-md">
+            <h3 class="text-light text-center font-weight-bolder bg-success">
+                ACESSIBILIDADE
+            </h3>
+        </div>
+
+
+        {%include "ListaEventos.html"%}    
+
+        <section>
+            <div class="container container-fluid container-md">
+                <div class="card-deck">
+                    <div class="card bg-danger">
+                            <div class="card-header">
+                                <h4 class="text-center font-weight-bold">
+                                  Cachoeiras de Macacu, RJ
+                                </h4>
+                            </div>
+                            <a href="noticiaPNE1">
+                                <img class="card-img-top" src="Imagens/PNE/pne1.jpg" alt="">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    1ª trilha com trecho para cadeirantes e deficientes visuais na região é inaugurada em Cachoeiras de Macacu, RJ</p>
+                                <a class="btn btn-warning" href="noticiaPNE1">Veja</a>
+                            </div>
+                        </div>
+
+                        <div class="card bg-info">
+                            <div class="card-header">
+                                <h4 class="text-center font-weight-bold">
+                                    São Sebastião, SP
+                                </h4>
+                            </div>
+                            <a href="noticiaPNE2">
+                                <img class="card-img-top" src="Imagens/PNE/juliette.jpg" alt="">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Prefeitura de São Sebastião, SP investe em turismo de aventura adaptada
+                                </p>
+                                <a class="btn btn-success" href="noticiaPNE2">Veja</a>
+                            </div>
+                        </div>
+
+                        <div class="card bg-warning">
+                            <div class="card-header">
+                                <h4 class="text-center font-weight-bold">
+                                    Nova Iguaçu, RJ
+                                </h4>
+                            </div>
+                            <a href="noticiaPNE3">
+                                <img class="card-img-top" src="Imagens/PNE/pne2.jpg" alt="">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Projeto ‘Parque Para Todos’ leva alunos com deficiência ao Parque do Vulcão
+                                </p>
+                                <a class="btn btn-success" href="noticiaPNE3">Veja</a>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <hr>
+
+        {% include "footer.html"%}
+    </body>
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        
+        <title>Trilhando Teresópolis</title>
+
+        {% include "head.html"%}
+
+    </head>
+
+    <body>
+        <section>
+            <header class="container-fluid container-md">
+                <div class="jumbotron-fluid JumboHeadImgIndex">
+                    {% include "nav.html"%}
+                </div>
+            </header>
+          </section>
+
+        <div class="container-fluid container-md">
+            <h3 class="text-light text-center font-weight-bolder bg-success">
+                TRILHANDO TERESÓPOLIS - SUA AVENTURA COMEÇA AQUI!
+            </h3>
+        </div>
+
+        {%include "ListaEventos.html"%}
+
+        <section>
+            <div class="container container-fluid">
+                <p class="ttt">
+                    Clique <a href="#enviar">aqui</a> e venha trilhar com a gente!
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container container-fluid container-md">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card border border-info bg-info">
+                            <img src="imagens/Aventuras/tartaruga.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-md-center text-sm-center"><b>Foto do Mês</b></h5>
+                                <p class="ttt card-text text-md-center font-weight-bolder">Vote atráves do link para o Instagram</p>
+                                <p class="ttt card-footer text-md-center">
+                                    <a class="text-white font-weight-bolder" href="#">Link para votação</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--<br>
+
+                    <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card border border-info bg-info">
+                            <img src="imagens/tartaruga.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-md-center text-sm-center"><b>Foto do Vencedora Mês</b></h5>
+                                <p class="card-text text-md-center font-weight-bolder">Foto de....</p>
+                                <p class="card-footer text-md-center">
+                                    <a class="text-white font-weight-bolder" href="#" target="_blank">link da foto no Instagram</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <p></p>
+
+                    <div class="col-md-3">
+                        <div class=" card border border-primary bg-primary">
+                            <a href="rafting">
+                                <img src="imagens/Aventuras/rafting7.jpg" alt="Travessia Petro x Teresópolis" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center font-weight-bolder">Próximo Evento</h5>
+                                <p class="ttt card-text text-md-center font-weight-bold">Rafting - Três Rios</p>
+                                <p class="ttt card-footer text-center font-weight-bold">
+                                    <a class="text-white" href="rafting">Veja Aqui o Evento</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p></p>                  
+                    
+                    <div class="col-md-3">
+                        <div class="card border border-success bg-success">
+                            <img src="imagens/caixa1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-md-center"><b>Convide seus amigos</b></h5>
+                                <p class="ttt card-text text-md-center">Junte os seus amigos e faça uma viagem com a gente</p>
+                                <p class="ttt card-footer text-md-center">
+                                    <a class="text-warning font-weight-bolder" href="#">Ainda em construção</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p></p>
+                    
+                    <div class="col-md-3">
+                        <div class="carousel slide" id="imgCarousel"  data-ride="carousel" data-wrap="true" data-interval="4000">
+                            <!--<ol class="carousel-indicators">
+                                <li data-target="#imgCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#imgCarousel" data-slide-to="1"></li>
+                            </ol>-->
+                                    
+                            <div class="card">
+
+                                <div class="carousel-inner bg-white" style="height: 340px; width: 383px;">
+                                    <div class="carousel-item active">
+                                        <img class="img-fluid mx-auto d-block" src="/imagens/Aniversariantes/FelipeRM.jpg">
+                                            <div class="carousel-caption d-none d-block">
+                                                <h5 class="text-md-left font-weight-bolder" >
+                                                    Felipe Rocha Moraes<br>
+                                                    01/10
+                                                </h5>
+                                            </div>
+                                    </div>   
+        
+                                    <div class="carousel-item carousel-fade">
+                                        <img class="img-fluid mx-auto d-block" src="/imagens/Aniversariantes/AnaClaudiaRocha.jpg">
+                                        <div class="carousel-caption">
+                                            <h5 class="text-md-left font-weight-bolder">
+                                                Claudia Souza Rocha<br>
+                                                11/10
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item carousel-fade">
+                                        <img class="img-fluid mx-auto d-block" src="/imagens/Aniversariantes/SimoneCarvalho.jpg">
+                                        <div class="carousel-caption">
+                                            <h5 class="text-md-left font-weight-bolder">
+                                                Simone Carvalho<br>
+                                                23/10
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item carousel-fade">
+                                        <img class="img-fluid mx-auto d-block" src="/imagens/Aniversariantes/NeaSoares.jpg">
+                                        <div class="carousel-caption">
+                                            <h5 class="text-md-left font-weight-bolder">
+                                                Nea Soares<br>
+                                                24/10
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <!--<div class="carousel-item carousel-fade">
+                                        <img class="img-fluid mx-auto d-block" src="imagens/jessica3.jpg">
+                                        <div class="carousel-caption">
+                                            <h5 class="text-md-left font-weight-bolder">
+                                                Jessica Carvalho<br>
+                                                08/08
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    
+
+                                    <div class="carousel-item carousel-fade">
+                                        <img class="img-fluid mx-auto d-block" src="imagens/luciano.jpg">
+                                        <div class="carousel-caption">
+                                            <h5 class="text-md-left font-weight-bolder">
+                                                Luciano Curty<br>
+                                                15/08
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item carousel-fade">
+                                        <img class="img-fluid mx-auto d-block" src="imagens/robson.jpg">
+                                        <div class="carousel-caption">
+                                            <h5 class="text-md-left font-weight-bolder">
+                                                Robson Teodoro<br>
+                                                17/08
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item carousel-fade">
+                                        <img class="img-fluid mx-auto d-block" src="imagens/ramon.jpg">
+                                        <div class="carousel-caption">
+                                            <h5 class="text-md-left font-weight-bolder">
+                                                Ramon Coimbra<br>
+                                                24/08
+                                            </h5>
+                                        </div>
+                                    </div>-->
+
+                                </div>
+                            </div>
+        
+                            <div class="card-footer w3-amber w3-border-amber w3-hover-yellow w3-hover-border-yellow align-content-md-center">
+                                <h5 class="card-title text-md-center font-weight-bolder">Aniversariantes do Mês</h5>
+                                <p class="ttt card-text text-md-center">Muitas montanhas para vocês!</p>                                
+                                    <p class="ttt card-footer text-sm-center">
+                                            <strong>Parabéns Adventures! 🎂 </strong>
+                                    </p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <div class="container container-fluid container-md">    
+                    <p>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card border border-success bg-success">
+                                    <a href="produtos">
+                                        <img src="imagens/Produtos/produtos.jpg" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-md-center"><b>Compras</b></h5>
+                                        <p class="ttt card-text text-md-center">Veja e garanta nossos produtos</p>
+                                        <p class="ttt card-footer text-md-center">
+                                            <a class="text-warning font-weight-bolder" href="produtos">Veja Aqui</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p></p>
+                            
+                            <div class="col-md-3">
+                                <div class="card border border-danger bg-danger">
+                                    <a href="noticiasPrincipal">
+                                        <img src="imagens/Noticias/news.jpg" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-md-center"><b>Notícias</b></h5>
+                                        <p class="ttt card-text text-md-center">Fique por dentro das notícias sobre trilhas....</p>
+                                        <p class="ttt card-footer text-md-center">
+                                            <a class="text-warning font-weight-bolder" href="noticiasPrincipal">Acesse Aqui</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p></p>
+                            
+                            <div class="col-md-3">
+                                <div class="card border border-info bg-info">
+                                    <a href="pnePrincipal">
+                                        <img src="imagens/PNE/pne3.jpg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center font-weight-bolder">Acessidilidade</h5>
+                                        <p class="ttt card-text text-center">Inclusão para todas as pessoas</p>
+                                        <p class="ttt card-footer text-center font-weight-bold">
+                                            <a class="text-white font-weight-bolder" href="pnePrincipal">Acesse Aqui!</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p></p>
+
+                            <div class="col-md-3">
+                                <div class="card w3-border-teal w3-teal">
+                                    <a href="aventuras">
+                                        <img src="imagens/bandeira2.jpg" alt="Travessia Petro x Teresópolis" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center font-weight-bolder">Conheça nossos destinos</h5>
+                                        <p class="ttt card-text text-center">Veja nossa galeria de fotos</p>
+                                        <p class="ttt card-footer text-center font-weight-bold">
+                                            <a class="text-white font-weight-bolder" href="aventuras">Confira!</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container container-fluid container-md">
+                <p>
+                    <hr>
+                        <!--<a href="parceiros">                            
+                        </a>-->
+                        <h3 class="text-sm-center text-success font-weight-bolder">Lojas Parceiras</h3>
+                        <div class="row">
+                            <div class="col-sm-2 mb-md-0 mb-3">
+                                <a href="https://www.oqueijao.com.br/" target="_blank" rel="noopener noreferrer" class="text-success font-weight-bolder">O Queijão</a><br>
+                                <a href="https://www.decathlon.com.br/" target="_blank" rel="noopener noreferrer" class="text-success font-weight-bolder">Decathlon</a>
+                            </div>
+
+                            <div class="col-sm-2 mb-md-0 mb-3">
+                                <a href="https://www.oqueijao.com.br/" target="_blank" rel="noopener noreferrer" class="text-success font-weight-bolder">O Queijão</a><br>
+                                <a href="https://www.decathlon.com.br/" target="_blank" rel="noopener noreferrer" class="text-success font-weight-bolder">Decathlon</a>
+                            </div>                            
+                            
+                            <div class="container-fluid container-md text-center text-success">
+                                <p>
+                                    <h5>
+                                        <a class="text-success font-weight-bolder" href="parceiros">Mais parcerias...</a>
+                                    </h5>
+                                </p>
+                            </div>
+                        </div>
+                    <hr>
+                </p> 
+            </div>
+        </section>
+        
+        <section>
+            <p>
+                <p>
+                    <div class="container container-fluid container-md" id="enviar">
+                        <p class="ttt" id="não especial">Clique aqui e agende sua trilha com a gente</p>
+                        <a class="btn btn-success btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank">Clique Aqui</a>
+                    </div>
+                </p>
+            </p>            
+        </section>
+
+        <hr>
+
+        {% include "footer.html"%}
+
+    </body>
+</html>

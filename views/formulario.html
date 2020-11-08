@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        {% include "head.html"%}    
+        <title>Formulario - Trilhando Teresópolis</title>
+    </head>
+
+    <body>
+      <section>
+        <header class="container-fluid container-md">
+            <div class="jumbotron-fluid JumboHeadImgForm">
+                {% include "nav.html"%}
+            </div>
+        </header>    
+      </section>
+        
+        <div class="container container-fluid container-md">
+            <h3 class="text-white text-center font-weight-bold bg-success">
+                LOGIN/CADASTRO
+            </h3>
+        </div>
+
+        <div class="container container-fluid" id="containere">
+          <img src="Imagens/logo 02.png" alt="">
+
+          <form>
+              <h5>Para garantir sua trilha/compra <br> faça o login</h5>
+              <div>
+                <input class="email" type="email" name="email" id="email" placeholder="Digite seu e-mail" required autofocus>
+              </div>
+
+              <div>
+                <input class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+              </div>
+
+              <div>
+                <button class="dist btn btn-success" type="submit" value="Entrar" class=>Entrar</button>
+                ou <a class="text-primary font-weight-bolder" href="submit.html">Crie seu login</a>
+              </div>
+
+          </form>
+        </div>       
+
+        <hr>
+
+        {% include "footer.html"%}
+    </body>
+</html>

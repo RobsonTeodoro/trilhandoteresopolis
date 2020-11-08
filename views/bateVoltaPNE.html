@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        {% include "head.html"%}
+        <title>Eventos PNE - Trilhando Teresópolis</title>
+
+        <style>
+            
+        </style>
+    </head>
+
+    <body>
+        <section>
+            <header class="container-fluid container-md">
+                <div class="jumbotron-fluid JumboHeadImgbateVoltaPNE">
+                    {% include "nav.html"%}
+                </div>
+            </header>    
+          </section>
+        
+        <div class="container container-fluid container-md">
+            <h3 class="text-white text-center font-weight-bold bg-success">
+                BATE E VOLTA PNE
+            </h3>
+        </div>
+        
+
+        {%include "ListaEventos.html"%}
+
+        <!--<section>
+            <div class="container-md container-fluid">
+                INICIO FORMULARIO BOTAO PAGSEGURO
+                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO
+                <input class="dist" type="hidden" name="code" value="D8EA452E1313CCAFF4FE6FB26A42E8CD" />
+                <input class="dist" type="hidden" name="iot" value="button" />
+                <input class="dist" type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                </form>
+                 FINAL FORMULARIO BOTAO PAGSEGURO 
+            </div>
+        </section>-->
+
+
+        <section>
+            <p>
+                <div class="container-fluid container-md">
+                    <h3 class="font-weight-bold">Próximos Eventos Bate e Volta de 2020</h3>
+        
+                    <p class="ttt">
+                        <span>
+                            Nos envie um <a href="#enviar">email</a> e agende sua aventura!
+                        </span>
+                    </p>
+        
+                    <!--<p>
+                        <h4 class= "font-weight-bold">
+                            <p>
+                                Informaremos em breve!
+                            </p>
+                        </h4>
+                    </p>-->
+                    
+                    <p>
+                        <ul>
+                          <li class="font-weight-bold">SETEMBRO</li>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-map-marker text-success"></i>
+                                    <a class="font-weight-bold" href="picoTijuca">PICO DA TIJUCA</a> <br>
+                                    <i class="fa fa-globe text-info"></i>
+                                        LOCAL: RIO DE JANEIRO <br>
+                                    <i class="fa fa-calendar text-dark"></i>
+                                        DATA: 08/12/19 <br>
+                                    <i class="fa fa-money text-success"></i>
+                                        VALOR: R$80,00 <br>                                            
+                                        😅NÍVEL:MODERADO <br>
+                                    <i class="fa fa-hourglass-half text-danger"></i>
+                                        VAGAS: 5 <br>
+                                        <!--<a class="btn btn-success" href="formulario">Comprar</a>-->
+                                        <!--{% include "submit.html"%}-->
+                                </li>        
+                            </ul>                            
+                        </ul>
+                    </p>
+                </div><br><br>
+            </p>
+        </section>
+
+        <!--<section>
+            <p>
+                <div id="enviar" class="container-fluid container-md">
+                    <p class="ttt">Clique aqui e agende sua trilha com a gente!</p>
+                    <a class="btn btn-success btn-group-toggle" href="mailto:trilhandoteresopolis@gmail.com" target="_blank">Clique Aqui</a>
+                </div>
+            </p>
+        </section>-->
+
+        <hr>
+        
+        {% include "footer.html"%}
+        
+    </body>
+</html>
