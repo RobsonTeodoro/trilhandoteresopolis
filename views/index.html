@@ -9,10 +9,10 @@
 
     </head>
 
-    <body>
+    <body onload="carregar()">
         <section>
             <header class="container-fluid container-md">
-                <div class="jumbotron-fluid JumboHeadImgIndex">
+                <div class="jumbotron-fluid container-fluid JumboHeadImgIndex">
                     {% include "nav.html"%}
                 </div>
             </header>
@@ -27,9 +27,9 @@
         {%include "ListaEventos.html"%}
 
         <section>
-            <div class="container container-fluid">
-                <p class="ttt">
-                    Clique <a href="#enviar">aqui</a> e venha trilhar com a gente!
+            <div  class="container container-fluid">
+                <p id="msg" class="ttt">
+                   <rtrs style="color: green;"> <strong>Bom dia!</strong></rtrs>  Clique <a href="#enviar">aqui</a> e venha trilhar com a gente!
                 </p>
             </div>
         </section>
@@ -100,97 +100,88 @@
                     <p></p>
                     
                     <div class="col-md-3">
-                        <div class="carousel slide" id="imgCarousel"  data-ride="carousel" data-wrap="true" data-interval="4000">
+                        <div class="carousel slide" id="imgCarousel" data-ride="carousel" data-wrap="true" data-interval="4000">
                             <!--<ol class="carousel-indicators">
                                 <li data-target="#imgCarousel" data-slide-to="0" class="active"></li>
                                 <li data-target="#imgCarousel" data-slide-to="1"></li>
                             </ol>-->
                                     
-                            <div class="card">
+                            <div class="card" id="niver">
 
-                                <div class="carousel-inner bg-white" style="height: 340px; width: 383px;">
+                                <div class="carousel-inner bg-white" id="niver2" >
+                                    
                                     <div class="carousel-item active">
-                                        <img class="img-fluid mx-auto d-block" src="/imagens/Aniversariantes/FelipeRM.jpg">
+                                        <img class="img-fluid card-img-top mx-auto d-block" src="Imagens/Aniversariantes/mayaraOliveira.jpg">
                                             <div class="carousel-caption d-none d-block">
-                                                <h5 class="text-md-left font-weight-bolder" >
-                                                    Felipe Rocha Moraes<br>
-                                                    01/10
+                                                <h5 class="text-md-left font-weight-bolder text-white" >
+                                                    Mayara Oliveira<br>
+                                                    04/01
                                                 </h5>
-                                            </div>
+                                            </div>                                        
                                     </div>   
         
                                     <div class="carousel-item carousel-fade">
-                                        <img class="img-fluid mx-auto d-block" src="/imagens/Aniversariantes/AnaClaudiaRocha.jpg">
+                                        <img class="img-fluid card-img-top mx-auto d-block" src="Imagens/Aniversariantes/leonardoBrigido.jpg">
                                         <div class="carousel-caption">
                                             <h5 class="text-md-left font-weight-bolder">
-                                                Claudia Souza Rocha<br>
-                                                11/10
+                                                Leonardo Brigido<br>
+                                                13/01
                                             </h5>
                                         </div>
                                     </div>
 
                                     <div class="carousel-item carousel-fade">
-                                        <img class="img-fluid mx-auto d-block" src="/imagens/Aniversariantes/SimoneCarvalho.jpg">
+                                        <img class="img-fluid card-img-top mx-auto d-block" src="Imagens/Aniversariantes/felipeAndrade.jpg">
                                         <div class="carousel-caption">
                                             <h5 class="text-md-left font-weight-bolder">
-                                                Simone Carvalho<br>
-                                                23/10
+                                                Felipe Andrade<br>
+                                                27/01
                                             </h5>
                                         </div>
                                     </div>
 
                                     <div class="carousel-item carousel-fade">
-                                        <img class="img-fluid mx-auto d-block" src="/imagens/Aniversariantes/NeaSoares.jpg">
+                                        <img class="img-fluid card-img-top mx-auto d-block" src="Imagens/Aniversariantes/nelson.jpg">
                                         <div class="carousel-caption">
-                                            <h5 class="text-md-left font-weight-bolder">
-                                                Nea Soares<br>
-                                                24/10
+                                            <h5 class="text-md-left text-white font-weight-bolder">
+                                                Nelson Vilela<br>
+                                                29/01
                                             </h5>
                                         </div>
                                     </div>
 
                                     <!--<div class="carousel-item carousel-fade">
-                                        <img class="img-fluid mx-auto d-block" src="imagens/jessica3.jpg">
+                                        <img class="img-fluid card-img-top mx-auto d-block" src="Imagens/Aniversariantes/leonardoBrigido.jpg">
                                         <div class="carousel-caption">
                                             <h5 class="text-md-left font-weight-bolder">
-                                                Jessica Carvalho<br>
-                                                08/08
-                                            </h5>
-                                        </div>
-                                    </div>
-                                    
-
-                                    <div class="carousel-item carousel-fade">
-                                        <img class="img-fluid mx-auto d-block" src="imagens/luciano.jpg">
-                                        <div class="carousel-caption">
-                                            <h5 class="text-md-left font-weight-bolder">
-                                                Luciano Curty<br>
-                                                15/08
+                                                Leonardo Brigido<br>
+                                                13/01
                                             </h5>
                                         </div>
                                     </div>
 
                                     <div class="carousel-item carousel-fade">
-                                        <img class="img-fluid mx-auto d-block" src="imagens/robson.jpg">
+                                        <img class="img-fluid card-img-top mx-auto d-block" src="Imagens/Aniversariantes/felipeAndrade.jpg">
                                         <div class="carousel-caption">
                                             <h5 class="text-md-left font-weight-bolder">
-                                                Robson Teodoro<br>
-                                                17/08
+                                                Felipe Andrade<br>
+                                                27/01
                                             </h5>
                                         </div>
                                     </div>
 
                                     <div class="carousel-item carousel-fade">
-                                        <img class="img-fluid mx-auto d-block" src="imagens/ramon.jpg">
+                                        <img class="img-fluid card-img-top mx-auto d-block" src="Imagens/Aniversariantes/nelson.jpg">
                                         <div class="carousel-caption">
-                                            <h5 class="text-md-left font-weight-bolder">
-                                                Ramon Coimbra<br>
-                                                24/08
+                                            <h5 class="text-md-left text-white font-weight-bolder">
+                                                Nelson Vilela<br>
+                                                29/01
                                             </h5>
                                         </div>
                                     </div>-->
 
-                                </div>
+                                </div><!--FIM div carousel-inner-->
+
                             </div>
         
                             <div class="card-footer w3-amber w3-border-amber w3-hover-yellow w3-hover-border-yellow align-content-md-center">
