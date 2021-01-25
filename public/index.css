@@ -1,348 +1,282 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 .JumboHeadImgIndex {
-    background-image: url(Imagens/Capas/sacristia4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
+  background-image: url(Imagens/Capas/sacristia1.jpg);
+  background-size: contain; /**/
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+  object-fit: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 115%;
 }
-.JumboHeadImgEvent {
-    background-image: url(Imagens/Capas/travessia4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-}
-.JumboHeadImgFds {
-    background-image: url(Imagens/Capas/travessia2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-}
-.JumboHeadImgFeriado {
-    background-image: url(Imagens/Capas/travessia5.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
+
+.JumboHeadImgCargueira {
+  background-image: url(Imagens/Capas/travessiaGarrafao.jpg);
+  background-size: contain; /**/
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+  object-fit: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 140%;
 }
 
 .JumboHeadImgGuias {
-    background-image: url(Imagens/Capas/travessia12.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-}
-.JumboHeadImgInic {
-    background-image: url(Imagens/Capas/Arpoador.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-  }
-
-  .JumboHeadImgPNEPrinc {
-    background-image: url(Imagens/Capas/cadjuliete.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-  }
-
-  .JumboHeadImgPNE1 {
-    background-image: url(Imagens/Capas/papagaio.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-  }
-  .JumboHeadImgPNE2 {
-    background-image: url(Imagens/Capas/elefante.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-  }
-  .JumboHeadImgPNE3 {
-    background-image: url(Imagens/Capas/capim.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-  }
-
-  .JumboHeadImgPrinc {
-    background-image: url(Imagens/Capas/ibiti.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-  }
-
-  .JumboHeadImgCBME {
-    background-image: url(Imagens/Capas/travessia9.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-}
-.JumboHeadImgDOIS {
-    background-image: url(Imagens/Capas/travessia1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-}
-
-
-  .JumboHeadImgTRES {
-    background-image: url(Imagens/Capas/travessia13.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-  }
-  .JumboHeadParc {
-    background-image: url(Imagens/Capas/caete.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-}
-.JumboHeadImgPeBon {
-    background-image: url(Imagens/Capas/tijuca3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-  }
-  .JumboHeadImgPiTij {
-    background-image: url(Imagens/Capas/tijuca3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-  }
-  .JumboHeadImgPiTij2 {
-    background-image: url(Imagens/Capas/tijuca3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-  }
- 
-  .JumboHeadImgProd {
-    background-image: url(Imagens/Capas/telegrafo.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-}
-.JumboHeadImgSobre {
-    background-image: url(Imagens/Capas/tartaruga3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-}
-
-.JumboHeadImgAgenda {
-    background-image: url(Imagens/Capas/bandeira3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
+  background-image: url(Imagens/Capas/travessia12.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
 }
 
 .JumboHeadImgAvent {
-    background-image: url(Imagens/Capas/travessia7.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
+  background-image: url(Imagens/Capas/travessia7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgEvento {
+  background-image: url(Imagens/Capas/elefante2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgFds {
+  background-image: url(Imagens/Capas/travessia2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgFeriado {
+  background-image: url(Imagens/Capas/travessia5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
 }
 
 .JumboHeadImgbateVolta {
-    background-image: url(Imagens/Capas/travessia3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
+  background-image: url(Imagens/Capas/travessia3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
 }
+
 .JumboHeadImgbateVoltaPNE {
-    background-image: url(Imagens/Capas/telegrafo.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-  }
-  .JumboHeadImgCanecas {
-    background-image: url(Imagens/Capas/bandeira3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
+  background-image: url(Imagens/Capas/telegrafo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
 }
-.JumboHeadImg {
-    background-image: url(Imagens/Capas/travessia4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
+
+.JumboHeadImgInic {
+  background-image: url(Imagens/Capas/Arpoador.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgPNEPrinc {
+  background-image: url(Imagens/Capas/cadjuliete.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgPNE1 {
+  background-image: url(Imagens/Capas/papagaio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgPNE2 {
+  background-image: url(Imagens/Capas/elefante.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgPNE3 {
+  background-image: url(Imagens/Capas/capim.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgPrinc {
+  background-image: url(Imagens/Capas/ibiti.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgCBME {
+  background-image: url(Imagens/Capas/travessia9.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgDOIS {
+  background-image: url(Imagens/Capas/papagaio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgTRES {
+  background-image: url(Imagens/Capas/travessia1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadParc {
+  background-image: url(Imagens/Capas/caete.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgPeBon {
+  background-image: url(Imagens/Capas/tijuca3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgPiTij {
+  background-image: url(Imagens/Capas/tijuca3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgPiTij2 {
+  background-image: url(Imagens/Capas/tijuca3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgProd {
+  background-image: url(Imagens/Capas/telegrafo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgAgenda {
+  background-image: url(Imagens/Capas/bandeira3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgCanecas {
+  background-image: url(Imagens/Capas/bandeira3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgCamisas {
+  background-image: url(Imagens/Capas/sacristia6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgDica{
+  background-image: url(Imagens/Capas/travessia4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgbateVoltaPNE {
+  background-image: url(Imagens/Capas/telegrafo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
+}
+
+.JumboHeadImgSobre {
+  background-image: url(Imagens/Capas/tartaruga3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
 }
 
 .JumboHeadImgForm {
-    background-image: url(Imagens/Capas/capim2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
+  background-image: url(Imagens/Capas/capim2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px;
 }
 
-.JumboHeadImgbateVoltaPNE {
-    background-image: url(Imagens/Capas/telegrafo.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
+* {
+  box-sizing: border-box;
 }
 
-.JumboHeadImgCamisas{
-    background-image: url(Imagens/Capas/sacristia6.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 190px;
-}
-  
-*{
-    box-sizing: border-box;
-}
-
-
-#containere{
-    width: 400px;
-    height: 300px;
-    background-color: rgba(11, 126, 11, 0.5);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-top: 80px;
-    text-align: center;
-  }
-
-  #containere img{
-    width: 120px;
-    height: 120px;
-    margin-top: -60px;
-    margin-bottom: 30px; 
-  }
-
-  #containere input:not(.dist) {
-    height: 40px;
-    width: 80%;
-    font-size: 18px;
-    margin-bottom: 10px;
-    background-color: rgb(255, 255, 255);
-    padding-left: 40px;
-    border: none;
-    background-repeat: no-repeat;
-    background-position: 10px;
-  }
-
-  #containere input.email{
-      background-image: url(Imagens/icone-usuario.png);
-  }
-
-  #containere input.senha{
-    background-image: url(Imagens/icone-cadeado.png);
-}
-
-p:not(.ttt){
-    text-indent: 15px;
-    font-size: 17px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
-.card .card-image{
-    overflow: hidden;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-
-.card{
-    margin-top: 10px;
-    position: absolute;
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    box-shadow: 4 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-
-
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  filter: invert(1);
-}
-
-.btn-custom{
-    background-color: transparent;
-    font-size:18px;
-}
-
-.row:not(#rodape) {
-    display: flex;
-    flex-wrap: wrap;
- }
- 
- .row:not(#rodape) > div[class*='col-'] {
-   display: grid;
- }
-
-footer {
-    clear: both;
-}
-
-footer #rodape {
-    position: relative;
+.carrossel {
+  height: 620px;
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
-}
-
-.teste{  
-    width: 90%;
-    max-width: 980px;
-
-    margin: 20px auto;
 }
 
 .container.gallery-container {
   background-color: #fff;
-  color: #35373a;
-  min-height: 100vh;
-  border-radius: 20px;
+  color: rgb(6, 126, 6);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 }
 
 .gallery-container h1 {
   text-align: center;
-  margin-top: 70px;
-  font-family: 'Droid Sans', sans-serif;
+  margin-top: 5px;
+  font-family: sans-serif;
   font-weight: bold;
 }
 
@@ -350,26 +284,25 @@ footer #rodape {
   text-align: center;
   max-width: 800px;
   margin: 25px auto;
-  color: #888;
+  color: rgb(145, 145, 145);
   font-size: 18px;
 }
 
 .tz-gallery {
-  padding: 4px;
+  padding: 20px;
 }
 
 .tz-gallery .lightbox img {
   width: 100%;
   margin-top: 25px;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
   transition: 0.2s ease-in-out;
-  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
-
 
 .tz-gallery .lightbox img:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 .tz-gallery img {
@@ -380,15 +313,149 @@ footer #rodape {
   background-color: transparent !important;
 }
 
-@media only screen and (max-width: 768px) {
-    .JumboHeadImg{
-        width: auto;
-        
-    }
-    
-    .container{
-        width: 96px;
-        text-align: center;
-    }
+#containere {
+  width: 400px;
+  height: 360px;
+  background-color: rgba(11, 126, 11, 0.5);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+}
 
+#containere img {
+  width: 120px;
+  height: 120px;
+  margin-top: -60px;
+  margin-bottom: 30px;
+}
+
+#containere input:not(.dist) {
+  height: 40px;
+  width: 80%;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 40px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+#containere input.email {
+  background-image: url(Imagens/icone-usuario.png);
+}
+
+#containere input.senha {
+  background-image: url(Imagens/icone-cadeado.png);
+}
+
+.vamosver{
+  margin-top: 35px;
+  margin-bottom: 30px;
+  text-indent: 15px;
+}
+
+.cargueira{
+  margin-top: 20px;
+  margin-bottom: -15px;
+  text-indent: 15px;
+}
+
+.identa{
+  text-indent: 15px;
+}
+
+p:not(.ttt) {
+  text-indent: 15px;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+.card .card-image {
+  overflow: hidden;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card {
+  margin-top: 10px;
+  position: absolute;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 4 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn-custom {
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.row:not(#rodape) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row:not(#rodape) > div[class*="col-"] {
+  display: grid;
+}
+
+footer {
+  clear: both;
+}
+
+footer #rodape {
+  position: relative;
+}
+
+.teste {
+  /*width: 100%;
+  max-width: 980px;*/
+  margin: 20px auto;
+}
+
+#niver2{
+  height: 295px;
+}
+
+.page-footer{
+  color: rgb(0, 0, 0);
+}
+
+.slide{
+  color: #fff;
+}
+
+.home{
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .JumboHeadImgIndex {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .container {
+    width: 96px;
+    text-align: center;
+  }
+
+  #niver2{
+    height: 427px;
+  }
+
+  .home {
+    margin-bottom: 5px;
+  }
 }
